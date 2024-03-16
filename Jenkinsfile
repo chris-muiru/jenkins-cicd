@@ -8,7 +8,7 @@ pipeline{
                 script {
                     def test = 2 + 2 > 3 ? 'cool':'not cool'
                     echo test
-                    echo 'testing ci/cd'
+                    echo 'testing ci/cd phase 2'
                 }
             }
         }
